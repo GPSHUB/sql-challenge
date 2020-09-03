@@ -1,5 +1,3 @@
-Employee DB a Mystery in 2 Parts - Giam Sigaud
-
 departments
 -
 dept_no VARCHAR(40) PK
@@ -18,7 +16,7 @@ emp_no INT FK >- employees.emp_no
 employees
 -
 emp_no INT PK
-emp_title_id VARCHAR(40)
+emp_title_id VARCHAR(40) FK
 birth_date DATE
 first_name VARCHAR(40)
 last_name VARCHAR(40)
